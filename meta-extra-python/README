@@ -1,0 +1,12 @@
+meta-extra-python
+=================
+
+Custom extra layers imported from recent versions of meta-openembedded
+meta-python layer.
+
+Can be used with thud version for instance when thud does not provide
+the recipes.
+
+Layers dependencies:
+- openembedded-core: git://git.openembedded.org/openembedded-core
+- meta-oe git://git.openembedded.org/meta-openembedded
