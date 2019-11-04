@@ -10,8 +10,9 @@ LIC_FILES_CHKSUM = "file://LICENSE/LICENSE;md5=afec61498aa5f0c45936687da9a53d74"
 DEPENDS = "python3-numpy-native python3-numpy freetype libpng python3-dateutil python3-pytz"
 RDEPENDS_${PN} = "python3-numpy freetype libpng python3-dateutil python3-pytz"
 
-SRC_URI[md5sum] = "f894af5564a588e880644123237251b7"
-SRC_URI[sha256sum] = "1febd22afe1489b13c6749ea059d392c03261b2950d1d45c17e3aed812080c93"
+SRC_URI[md5sum] = "5e8c690420499a6c170b2dbb1a091940"
+SRC_URI[sha256sum] = "e1d33589e32f482d0a7d1957bf473d43341115d40d33f578dad44432e47df7b7"
 
 PYPI_PACKAGE = "matplotlib"
+PV = "3.0.3"
 inherit pypi setuptools3
